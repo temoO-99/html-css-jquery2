@@ -1,0 +1,595 @@
+/*start global Tags*/
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.color {
+  color: #ddd;
+}
+
+.main-color {
+  color: darkorange;
+}
+
+.normal {
+  font-weight: 600;
+}
+
+.hidden,
+.hidde {
+  display: none;
+}
+
+/*end global Tags*/
+
+/*start header*/
+.header {
+  background: url("../imags/header3.jpeg") no-repeat center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  position: relative;
+}
+
+.header .overly {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.6);
+}
+
+.header .overly .container .navbar {
+  overflow: hidden;
+}
+
+.header .container .navbar h2 {
+  float: left;
+  display: inline-block;
+}
+
+.header .container .navbar span.menu {
+  float: right;
+  padding-top: 20px;
+  cursor: pointer;
+}
+
+.navbar ul {
+  list-style: none;
+  line-height: 2;
+  position: absolute;
+  top: 40px;
+  right: 100px;
+}
+
+.navbar ul li {
+  color: darkorange;
+  cursor: pointer;
+}
+
+.navbar ul li a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.navbar ul li a:hover {
+  color: darkorange;
+}
+
+.header .navbar .intro h1 {
+  display: inline-block;
+}
+
+.header .navbar .intro p {
+  margin: 0 0 40px 0;
+}
+
+.header .intro .button {
+  margin-left: 30px;
+}
+.header .intro .button button {
+  background: none;
+  padding: 5px 13px;
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  margin-left: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.header .intro .button button:hover {
+  background-color: darkorange;
+  cursor: pointer;
+}
+
+.header .navbar .arrow {
+  position: absolute;
+  bottom: 20px;
+  left: 619px;
+}
+
+.header .navbar .arrow i {
+  color: #ddd;
+  border: 2px solid #ddd;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  line-height: 22px;
+  text-align: center;
+  cursor: pointer;
+}
+
+.header .navbar .arrow i:hover {
+  background-color: darkorange;
+  -wibkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/*end header*/
+
+/*start feat*/
+
+.feat {
+  padding: 60px 0;
+}
+
+.feat .container {
+  overflow: hidden;
+}
+
+.feat .container .font {
+  float: left;
+  width: 22%;
+}
+
+.feat .container .font:nth-child(2) {
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.feat .container .font:nth-child(3) {
+  margin-right: 4%;
+}
+
+.feat .container .font i {
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  font-size: 50px;
+  color: darkorange;
+  padding: 20px;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  cursor: pointer;
+}
+
+.feat .container .font i:hover {
+  background-color: darkorange;
+  color: whitesmoke;
+  border: 1px solid darkorange;
+}
+
+.feat .container .font h4 {
+  color: #555;
+}
+
+.feat .container .font p {
+  color: #999;
+}
+/*end feat*/
+
+/*start subscribe*/
+
+.sub {
+  background: url(..//imags/subscribe.png) no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 300px;
+}
+
+.sub .overly {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+}
+
+.sub .container {
+  text-align: center;
+  padding-top: 150px;
+  overflow: hidden;
+}
+
+.sub .container form input {
+  width: 500px;
+  padding: 10px 0 10px 10px;
+  border-radius: 10px;
+  border: none;
+}
+
+.sub .container form button {
+  width: 200px;
+  margin-left: 10px;
+  padding: 10px 7px;
+  border-radius: 10px;
+  border: none;
+  background-color: darkorange;
+  color: whitesmoke;
+  cursor: pointer;
+}
+
+/*end subscribe*/
+
+/*start our*/
+.our {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.our .work {
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.our .work .img {
+  float: left;
+  width: 32%;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.our .work .img img {
+  border-radius: 10px;
+  height: 100%;
+  width: 100%;
+}
+.our .work .img:nth-child(2),
+.our .work .img:nth-child(5),
+.our .work .img:nth-child(8) {
+  margin: 0 2%;
+}
+
+.our .work .img .overly {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: darkorange;
+  opacity: 0.8;
+  color: whitesmoke;
+  line-height: 250%;
+}
+
+.our .work .img .overly button {
+  border: 1px solid #ddd;
+  background-color: whitesmoke;
+  color: darkorange;
+  width: 150px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:focus {
+  outline: none;
+}
+
+.our .work .img:hover .overly {
+  display: block;
+  border-radius: 10px;
+}
+
+.our .button button {
+  border: 1px solid #ddd;
+  background: none;
+  margin-top: 50px;
+  padding: 7px 30px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.our .button button:hover {
+  background-color: darkorange;
+  color: whitesmoke;
+  border: none;
+}
+
+/*end our*/
+
+/*start test*/
+.test {
+  padding: 50px 0;
+  background: url(https://media-exp1.licdn.com/dms/image/C4D1BAQHMhEzMHr0igA/company-background_10000/0?e=2159024400&v=beta&t=8ybX4Uk3MUc3ODS2ahxTEQ4d5IYiCKyzlTOtW_91Clg)
+    no-repeat center;
+  background-size: cover;
+  position: relative;
+  height: 250px;
+  margin-top: 40px;
+}
+
+.test .overly {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(0, 0, 0, 0.7);
+}
+
+.test .container {
+  color: whitesmoke;
+  position: relative;
+  padding: 60px 0 40px 0;
+}
+
+.test .container img {
+  border-radius: 50%;
+}
+
+.test .container p {
+  margin: 30px 0;
+  line-height: 2;
+  font-style: italic;
+}
+
+.test .container .fa-angle-right {
+  position: absolute;
+  right: 0;
+  top: 165px;
+  font-size: 30px;
+}
+
+.test .container .fa-angle-left {
+  position: absolute;
+  left: 0;
+  top: 165px;
+  font-size: 30px;
+}
+
+.test .container .fa-angle-right:hover,
+.test .container .fa-angle-left:hover {
+  color: darkorange;
+  cursor: pointer;
+}
+/*end test*/
+
+/*start our team*/
+
+.our-team {
+  padding: 60px 0;
+}
+
+.our-team .container h2 {
+  margin-bottom: 0;
+}
+
+.our-team .container h2 span {
+  color: darkorange;
+}
+
+.our-team .container .main {
+  color: #666;
+  line-height: 1.5;
+  font-size: 15px;
+  width: 95%;
+}
+
+.our-team .team {
+  overflow: hidden;
+}
+
+.team .person {
+  float: left;
+  width: 24%;
+  margin-right: 1%;
+}
+
+.team .person img {
+  width: 90%;
+  height: 80%;
+  filter: grayscale(1);
+}
+
+.team .person {
+  color: #888;
+}
+
+.team .person .icon i {
+  background-color: gray;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 10px;
+}
+
+.team .person:hover img {
+  filter: none;
+  -wibkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 8px 8px 8px 8px gray;
+  height: 100%;
+  border-bottom: 3px solid darkorange;
+}
+
+.team .person:hover {
+  color: #111;
+  cursor: pointer;
+  -wibkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.team .person:hover .fa-facebook-f {
+  background-color: #3b5998;
+  -wibkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.team .person:hover .fa-twitter {
+  background-color: #1da1f2;
+  -wibkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.team .person:hover .fa-google-plus-g {
+  background-color: #dd4b39;
+  -wibkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+/*end our team*/
+
+/*start contact*/
+
+.contact {
+  margin-top: 60px;
+  position: relative;
+  background: url(https://images.pexels.com/photos/1191377/pexels-photo-1191377.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260)
+    center no-repeat;
+  background-size: cover;
+  height: 635px;
+  color: whitesmoke;
+}
+
+.contact .overly {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: rgb(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+}
+
+.contact .container {
+  padding: 40px 0;
+}
+
+.contact .container > h2 span {
+  color: darkorange;
+}
+
+.contact .container p {
+  line-height: 2;
+}
+
+.contact .container form {
+  margin-top: 50px;
+}
+
+.contact .container form input {
+  width: 300px;
+  height: 25px;
+  border-radius: 10px;
+  padding: 2px 10px;
+  border: none;
+  margin-right: 20px;
+}
+
+.contact .container form textarea {
+  display: block;
+  margin-top: 30px;
+  width: 642px;
+  height: 200px;
+  border-radius: 10px;
+  padding: 7px 10px;
+  position: absolute;
+  left: 278px;
+}
+
+.contact .container .foot {
+  position: absolute;
+  left: 278px;
+  overflow: hidden;
+  bottom: 90px;
+  width: 667px;
+}
+
+.contact .container .foot button {
+  border: none;
+  width: 150px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: darkorange;
+  float: left;
+  color: whitesmoke;
+}
+
+.contact .container .foot i {
+  font-weight: 400;
+  float: right;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+  color: white;
+  background-color: aqua;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.contact .container .foot i.fa-facebook-f {
+  background-color: #3b5998;
+}
+.contact .container .foot i.fa-twitter {
+  background-color: #1da1f2;
+}
+.contact .container .foot i.fa-google-plus-g {
+  background-color: #dd4b39;
+}
+/*end contact*/
+
+/*start footer*/
+.footer {
+  background-color: #333;
+  padding: 10px 0;
+  overflow: hidden;
+  color: #ddd;
+}
+
+.footer .left {
+  float: left;
+}
+
+.footer .right {
+  float: right;
+}
+
+/*end footer*/
