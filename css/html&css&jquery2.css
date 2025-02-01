@@ -99,19 +99,21 @@ body {
   margin: 0 0 40px 0;
 }
 
-.header .intro .button {
+/* .header .intro .button {
   margin-left: 30px;
-}
+} */
 .header .intro .button button {
   background: none;
   padding: 5px 13px;
   border: 2px solid #ddd;
   border-radius: 10px;
-  margin-left: 20px;
+  margin-left: 45px;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
 }
+
+.header .intro .button button:nth-child(2){margin-left: 45px;}
 
 .header .intro .button button:hover {
   background-color: darkorange;
@@ -121,7 +123,7 @@ body {
 .header .navbar .arrow {
   position: absolute;
   bottom: 20px;
-  left: 619px;
+  left: 50%;
 }
 
 .header .navbar .arrow i {
@@ -258,7 +260,8 @@ body {
 
 .our .work .img {
   float: left;
-  width: 32%;
+  width: calc((100% / 3) - 20px);
+  height: 230px;
   margin-bottom: 20px;
   position: relative;
 }
@@ -287,6 +290,7 @@ body {
   color: whitesmoke;
   line-height: 250%;
 }
+
 
 .our .work .img .overly button {
   border: 1px solid #ddd;
@@ -406,11 +410,13 @@ button:focus {
 
 .our-team .team {
   overflow: hidden;
+  height: 460px;
 }
 
 .team .person {
   float: left;
   width: 24%;
+  height: 280px;
   margin-right: 1%;
 }
 
@@ -419,6 +425,8 @@ button:focus {
   height: 80%;
   filter: grayscale(1);
 }
+
+.team .person .content{height: 20%;}
 
 .team .person {
   color: #888;
@@ -441,7 +449,7 @@ button:focus {
   -o-transition: all 0.5s ease-in-out;
   transition: all 0.5s ease-in-out;
   box-shadow: 8px 8px 8px 8px gray;
-  height: 100%;
+  height: 90%;
   border-bottom: 3px solid darkorange;
 }
 
@@ -532,12 +540,12 @@ button:focus {
   border-radius: 10px;
   padding: 7px 10px;
   position: absolute;
-  left: 278px;
+  left: 25%;
 }
 
 .contact .container .foot {
   position: absolute;
-  left: 278px;
+  left: 25%;
   overflow: hidden;
   bottom: 90px;
   width: 667px;
@@ -577,6 +585,9 @@ button:focus {
 /*end contact*/
 
 /*start footer*/
+
+
+
 .footer {
   background-color: #333;
   padding: 10px 0;
